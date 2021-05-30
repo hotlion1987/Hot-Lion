@@ -1,12 +1,8 @@
 #include<iostream>
 #include<string>
+
 class Solution {
 public:
-    /**
-     * 
-     * @param s string字符串 
-     * @return string字符串vector
-     */
     int segNum[4];
     int isLegal(string s)
     {
@@ -56,8 +52,6 @@ public:
         vector<string> ans;
         dfs(1, ans, s);
         return ans;
-        
-        // write code here
     }
 };
 
